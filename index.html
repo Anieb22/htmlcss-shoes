@@ -5,28 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css" integrity="sha512-Z0kTB03S7BU+JFU0nw9mjSBcRnZm2Bvm0tzOX9/OuOuz01XQfOpa0w/N9u6Jf2f1OAdegdIPWZ9nIZZ+keEvBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/shoes.css">
     <title>Document</title>
 </head>
 <body>
-    <main>
-        <div class="contenitore-scarpe background-rosso">
-            <ul>
-                <li><i class="fa-duotone fa-circle-dot fa-2xl" style="--fa-primary-color: #000000; --fa-secondary-color: #ffffff; --fa-secondary-opacity: 1;"></i></li>
-            </ul>
+    <main class="background-rosso">
+        <ul class="contenitore-link">
+            <li>
+                <a href="#primo">
+                    <div class="background-dot">&#8226;</div>
+                </a>
+            </li>
+            <li>
+                <a href="#secondo">
+                    <div class="background-dot">&#8226;</div>
+                </a>
+            </li>
+            <li>
+                <a href="#terzo">
+                    <div class="background-dot">&#8226;</div>
+                </a>
+            </li>
+        </ul>
+        <a name="primo">
+        <div class="contenitore-scarpe">
             <img src="./img/01.png" alt="scarpa">
             <div class="testo-giallo">IL NOSTRO MODELLO DI PUNTA</div>
         </div>
+        </a>
+        <a name="secondo">
         <div class="contenitore-scarpe background-verde">
             <img src="./img/02.png" alt="scarpa">
             <div class="testo-giallo">IL NOSTRO MODELLO DI PUNTA</div>
         </div>
+        </a>
+        <a name="terzo">
         <div class="contenitore-scarpe background-giallo">
             <img src="./img/03.png" alt="scarpa">
             <div class="testo-verde">IL NOSTRO MODELLO DI PUNTA</div>
         </div>
+        </a>
     </main>
 </body>
 </html>
